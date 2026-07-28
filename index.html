@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="姜茂强 - 机械工程项目作品集" />
+    <title>姜茂强 | 机械工程项目作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="identity" href="#top" aria-label="返回顶部">
+        <strong>姜茂强 <b>15254916638</b></strong>
+        <span>MECHANICAL ENGINEERING / M.ENG.</span>
+      </a>
+      <nav aria-label="页面导航">
+        <a href="#project-one-to-five"><i>01</i>项目经历</a>
+        <a href="#resume"><i>02</i>个人简历</a>
+        <a href="#credentials"><i>03</i>学术成果</a>
+      </nav>
+      <a class="contact-qr" href="./联系二维码.png" data-lightbox="微信联系二维码" aria-label="扫码添加微信联系">
+        <img src="./联系二维码.png" alt="微信联系二维码" />
+        <span>WECHAT<br />CONTACT</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="main-dossier" aria-label="项目与个人简历">
+        <section id="project-one-to-five" class="project-column" aria-labelledby="projects-title">
+          <div class="section-title">
+            <p>01 / SELECTED PROJECTS</p>
+            <h1 id="projects-title">项目经历</h1>
+          </div>
+          <div id="projects-top" class="projects-list"></div>
+        </section>
+
+        <aside id="resume" class="resume-column" aria-labelledby="resume-title">
+          <div class="resume-heading">
+            <p>02 / PERSONAL PROFILE</p>
+            <h2 id="resume-title">个人简历</h2>
+          </div>
+          <a class="resume-frame" href="./简历.jpg" data-lightbox="个人简历">
+            <img src="./简历.jpg" alt="姜茂强个人简历" />
+            <span>点击查看清晰原图</span>
+          </a>
+        </aside>
+      </section>
+
+      <section id="project-six-to-eight" class="lower-projects" aria-label="项目 6 至项目 8">
+        <div id="projects-bottom" class="projects-list projects-list-wide"></div>
+      </section>
+
+      <section id="credentials" class="credentials-section" aria-labelledby="credentials-title">
+        <div class="credentials-inner">
+          <div class="section-title">
+            <p>04 / ACADEMIC OUTPUTS</p>
+            <h2 id="credentials-title">学术成果</h2>
+          </div>
+          <div class="credential-group">
+            <h3><span>01</span> 专利</h3>
+            <div id="patents-grid" class="certificate-grid"></div>
+          </div>
+          <div class="credential-group">
+            <h3><span>02</span> 竞赛及其他荣誉</h3>
+            <div id="awards-grid" class="certificate-grid"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>JMQ / PERSONAL ENGINEERING ARCHIVE</span>
+      <a href="#top">BACK TO TOP ↑</a>
+    </footer>
+
+    <dialog id="lightbox" aria-label="图片预览"><button aria-label="关闭图片预览">×</button><img src="" alt="" /></dialog>
+    <script src="./script.js"></script>
+  </body>
+</html>
